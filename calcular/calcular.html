@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../src/calcular.js"></script>
+    <title>Calcular</title>
+</head>
+<body>
+    <form action="" method="post">
+       <label for="">Primer valor: </label>
+        <input type="number" name = "valor1" id="valor1" placeholder="Primer valor">
+        <br>
+        <br>
+
+        <label for="">Segundo valor: </label>
+        <input type="number" name = "valor2" id="valor2" placeholder="Segundo valor">
+        <br>
+        <br>
+
+        <button type="button" onclick="calcularSumar()" name ="sumar">Sumar</button>
+        <button type="button" onclick="calcularRestar()" name ="restar">Restar</button>
+        <button type="button" onclick="calcularMultiplicar()" name ="sumar">Multiplicar</button>
+        <button type="button" onclick="calcularSumar()" name ="sumar">Sumar</button>
+        <br>
+        <br>
+    </form>
+
+    <p id="resultado"></p>
+
+</body>
+</html>
