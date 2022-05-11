@@ -1,3 +1,4 @@
+
 type TSize = "SM" | "ME" | "LA" | "2XL";
 
 type Producto = {
@@ -9,7 +10,7 @@ type Producto = {
       
 }
 
-function createProducto(producto: Producto):Producto{
+function createProductos(producto: Producto):Producto{
     let dia = producto.createAt.getDate();
     let mes = producto.createAt.getMonth() + 1;
     let annio = producto.createAt.getFullYear();
@@ -26,4 +27,4 @@ let product: Producto = {
 
 }
 
-console.log(createProducto(product));
+console.log(createProductos(product));

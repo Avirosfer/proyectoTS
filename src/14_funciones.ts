@@ -28,10 +28,8 @@ function createProducto(title: string, createAt: Date, stock: number, size: TSiz
   }
 
   return{
-    title,
-    createAt,
-    stock,
-    size,
+    
+    
     color
   }
 }

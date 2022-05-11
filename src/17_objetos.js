@@ -1,4 +1,4 @@
-function createProducto(producto) {
+function createProductos(producto) {
     var dia = producto.createAt.getDate();
     var mes = producto.createAt.getMonth() + 1;
     var annio = producto.createAt.getFullYear();
@@ -11,4 +11,4 @@ var product = {
     stock: 1000,
     size: "2XL"
 };
-console.log(createProducto(product));
+console.log(createProductos(product));
