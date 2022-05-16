@@ -8,18 +8,19 @@ constructor (nombre:string, edad:number){
     this.edad = edad;
 }
 
-public get getNombre(){
+public get getNombre():string{
   return this.nombre;
 }
 
-public set setNombre(){
-  return this.edad;
+public set setNombre(name:string){
+  this.nombre = name;
 }
-
-
 
 
 imprimir(){
    console.log(`Nombre: ${this.nombre} y edad ${this.edad}`);
   }
+  
+  
 }
+
